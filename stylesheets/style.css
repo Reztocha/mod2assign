@@ -5,6 +5,9 @@
 body {
 	font-family: Georgia, Times New Roman, Times, serif;
 	background-color: rgba(23, 123, 212, 0.05);
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 0;
 }
 header h1 {
 	font-size: 130%;
@@ -23,9 +26,10 @@ section, .title {
 section {
 	background-color: rgba(23, 123, 212, 0.4);
 	width: 90%;
+	height: 100%;
 	float: left;
-	margin: 5px;
 	border-radius: 5px;
+	margin: 5px;
 }
 section p {
 	padding: 5px;
