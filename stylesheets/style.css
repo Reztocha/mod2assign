@@ -22,7 +22,7 @@ section, .title {
 }
 section {
 	background-color: rgba(23, 123, 212, 0.4);
-	width: 300px;
+	width: 90%;
 	float: left;
 	margin: 5px;
 	border-radius: 5px;
@@ -38,7 +38,7 @@ section p:nth-child(2) {
 /*Medium sized Devices*/
 @media (min-width: 768px) and (max-width: 991px) {
 	section {
-		width: 200px;
+		width: 30%;
 	}
 }
 
@@ -48,6 +48,6 @@ section p:nth-child(2) {
 		font-size: 140%;
 	}
 	section {
-		width: 900px;
+		width: 90%;
 	}
 }
