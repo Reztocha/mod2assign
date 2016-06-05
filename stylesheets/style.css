@@ -5,8 +5,7 @@
 body {
 	font-family: Georgia, Times New Roman, Times, serif;
 	background-color: rgba(23, 123, 212, 0.05);
-	margin-left: 10%;
-	margin-right: 10%;
+	margin: 0;
 	padding: 0;
 }
 header h1 {
@@ -19,9 +18,15 @@ section, .title {
 	border: 1px solid #000000;
 }
 .title {
-	background-color: rgba(83, 123, 212, 0.8);
+	background-color: rgba(83, 123, 212, 0.5);
 	padding: 5px;
 	float: right;
+}
+#container {
+	left: 10%;
+	top: 10%;
+	right: 10%;
+	position: absolute;
 }
 section {
 	background-color: rgba(23, 123, 212, 0.4);
@@ -43,6 +48,12 @@ section p:nth-child(2) {
 @media (min-width: 768px) and (max-width: 991px) {
 	section {
 		width: 40%;
+	}
+	#container {
+		left: 15%;
+		top: 10%;
+		right: 7%;
+		position: absolute;
 	}
 }
 
