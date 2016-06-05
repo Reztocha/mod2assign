@@ -38,7 +38,7 @@ section p:nth-child(2) {
 /*Medium sized Devices*/
 @media (min-width: 768px) and (max-width: 991px) {
 	section {
-		width: 30%;
+		width: 40%;
 	}
 }
 
@@ -48,6 +48,6 @@ section p:nth-child(2) {
 		font-size: 140%;
 	}
 	section {
-		width: 90%;
+		width: 30%;
 	}
 }
