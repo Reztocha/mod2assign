@@ -1,0 +1,11 @@
+Summary of instructions:
+Create a Responsive Design
+
+*Use media queries to display desktop (>=992px), tablet (768px - 991px), and mobile (<=767px) versions of the webpage.
+**Must be one responsive page
+*Add a title to each section that is permanently positioned at the top right corner.
+*Both the sections and the section titles should have a one pixel, black border and a background color.
+*Each title background should have a unique color.
+*Pay attention to spacing, so overlapping is avoided.
+*No CSS or Javacript frameworks are allowed (excluding basic columns)
+*No inline styles are allowed.
