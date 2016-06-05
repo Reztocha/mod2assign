@@ -4,18 +4,21 @@
 }
 body {
 	font-family: Georgia, Times New Roman, Times, serif;
+	background-color: rgba(23, 123, 212, 0.05);
 }
 header h1 {
-font-size: 130%;
+	font-size: 130%;
 }
 h1 {
 	font-size: 110%;
 }
+section, .title {
+	border: 1px solid #000000;
+}
 .title {
-	float: right;
-	background-color: rgba(23, 123, 212, 0.8);
+	background-color: rgba(83, 123, 212, 0.8);
 	padding: 5px;
-	border: 1px solid black;
+	float: right;
 }
 section {
 	background-color: rgba(23, 123, 212, 0.4);
@@ -23,7 +26,6 @@ section {
 	float: left;
 	margin: 5px;
 	border-radius: 5px;
-	border: 2px solid #152275;
 }
 section p {
 	padding: 5px;
@@ -35,9 +37,6 @@ section p:nth-child(2) {
 
 /*Medium sized Devices*/
 @media (min-width: 768px) and (max-width: 991px) {
-	body {
-		background-color: rgba(23, 123, 212, 0.05);
-	}
 	section {
 		width: 200px;
 	}
@@ -46,10 +45,7 @@ section p:nth-child(2) {
 /*Large Devices*/
 @media (min-width: 992px){
 	header h1 {
-	font-size: 140%;
-	}
-	body {
-		background-color: rgba(23, 123, 212, 0.1);
+		font-size: 140%;
 	}
 	section {
 		width: 900px;
