@@ -8,14 +8,24 @@ body {
 section, .title {
 	border: 1px solid #000000;
 }
-section:nth-child(1):hover .title{
+.title {
+	padding: 5px;
+	float: right;
+}
+section:nth-child(1) .title {
 	background-color: blue;
 }
-section:nth-child(2):hover  .title{
+section:nth-child(2) .title {
 	background-color: green;
 }
-section:nth-child(3):hover  .title{
+section:nth-child(3) .title {
 	background-color: red;
+}
+section p {
+	padding: 10px;
+}
+section p:nth-child(2) {
+	color: #336699;
 }
 .row {
 	width: 100%;
