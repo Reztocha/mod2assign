@@ -1,0 +1,42 @@
+/*Base styles*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Georgia, Times New Roman, Times, serif;
+}
+section {
+	background-color: rgba(23, 123, 212, 0.4);
+	width: 300px;
+	float: left;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 2px solid #152275;
+}
+section p {
+	color: white;
+}
+section p:nth-child(2) {
+	color: #152275;
+}
+
+/*Medium sized Devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		background-color: rgba(23, 123, 212, 0.05);
+	}
+	section {
+		width: 200px;
+	}
+}
+
+/*Large Devices*/
+@media (min-width: 992px){
+	body {
+		background-color: rgba(23, 123, 212, 0.1);
+	}
+	section {
+		width: 900px;
+	}
+}
