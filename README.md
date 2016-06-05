@@ -1,10 +1,15 @@
 # mod2assign
-[Webpage](http://reztocha.github.io/mod2assign)
+[Webpage][page]
 
 ## Branches:
 #### gh-pages
-Here resides the webpage where mistakes were almost destined.
+[Here][gh] resides the webpage where mistakes were almost destined.
 #### mod2sol
-Here are attempts to correct previous mistakes. As standards were ignore, failure was lessened but not avoided.
+[Here][mod2] are attempts to correct previous mistakes. As standards were ignored, failure was lessened, but not avoided.
 #### master
-Here lies attempts to follow the standards that have waited ever so patiently to guide me towards a better path.
+[Here][master] lies attempts to follow the standards that have waited ever so patiently to guide me towards a better path.
+
+[page]:   http://reztocha.github.io/mod2assign
+[gh]:     https://github.com/Reztocha/mod2assign/tree/gh-pages/
+[mod2]:   https://github.com/Reztocha/mod2assign/tree/mod2sol/
+[master]: https://github.com/Reztocha/mod2assign/tree/master/
