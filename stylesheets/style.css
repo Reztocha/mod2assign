@@ -1,0 +1,53 @@
+/*Base styles*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Georgia, Times New Roman, Times, serif;
+	background-color: rgba(23, 123, 212, 0.05);
+}
+header h1 {
+	font-size: 130%;
+}
+h1 {
+	font-size: 110%;
+}
+section, .title {
+	border: 1px solid #000000;
+}
+.title {
+	background-color: rgba(83, 123, 212, 0.8);
+	padding: 5px;
+	float: right;
+}
+section {
+	background-color: rgba(23, 123, 212, 0.4);
+	width: 90%;
+	float: left;
+	margin: 5px;
+	border-radius: 5px;
+}
+section p {
+	padding: 5px;
+	color: white;
+}
+section p:nth-child(2) {
+	color: #152275;
+}
+
+/*Medium sized Devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	section {
+		width: 30%;
+	}
+}
+
+/*Large Devices*/
+@media (min-width: 992px){
+	header h1 {
+		font-size: 140%;
+	}
+	section {
+		width: 90%;
+	}
+}
